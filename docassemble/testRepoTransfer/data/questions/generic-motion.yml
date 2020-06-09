@@ -1,4 +1,14 @@
 comment: |
   A MassAccess project.
   
-  A description of what a generic motion is perhaps.
+  A description of what a generic motion is perhaps.  
+---
+id: interview order
+mandatory: True
+code: |
+  end_success
+---
+id: end successfully
+event: end_success
+question: Thank you for coming
+---
