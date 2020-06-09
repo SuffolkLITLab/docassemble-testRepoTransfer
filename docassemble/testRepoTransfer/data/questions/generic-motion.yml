@@ -6,9 +6,21 @@ comment: |
 id: interview order
 mandatory: True
 code: |
-  end_success
+  end_non_complete
 ---
 id: end successfully
 event: end_success
-question: Thank you for coming
+question: |
+  Thank you for coming
+---
+id: end without completing
+event: end_non_complete
+question: |
+  Sorry we couldn't help.
+subquestion: |
+  Here are some more resources:
+  
+  1. [Link 1](masslegalhelp.org)
+  1. [Link 2](https://help.github.com/en/github/administering-a-repository/transferring-a-repository)
+  1. [Link 3](https://github.com/SuffolkLITLab)
 ---
